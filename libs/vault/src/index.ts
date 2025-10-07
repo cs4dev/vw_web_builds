@@ -31,3 +31,9 @@ export * from "./abstractions/change-login-password.service";
 export * from "./services/default-change-login-password.service";
 
 export { SpotlightComponent } from "./components/spotlight/spotlight.component";
+
+export { WeakPasswordCountReporterService } from "./services/weak-password-count-reporter.service";
+export {
+  VaultBackgroundServicesInitializer,
+  initializeVaultBackgroundServices,
+} from "./services/vault-background-services.initializer";
